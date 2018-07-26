@@ -1,0 +1,6 @@
+$color: red;
+body {
+  /* @if IS_PRODUCTION */
+  color: $color;
+  /* @endif */
+} 
